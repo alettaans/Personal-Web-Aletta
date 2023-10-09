@@ -1,0 +1,292 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: white;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #FFFFFF;
+}
+
+.menu {
+    float: right;
+}
+
+#home {
+    padding: 50px 0;
+}
+
+#home p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#home h1 {
+    font-size: 30px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    top: 0;
+    background: #96B6C5;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.kolom {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.kolom .deskripsi {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'open sans';
+    color: black;
+}
+
+h2 {
+    font-family: 'open sans';
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.container {
+	width:90%;
+	margin:0 auto;
+    text-align: center;
+}
+.container::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.mobile-menu {
+	float: right;
+	display: none;
+	padding:18px;
+}
+.mobile-menu:hover {
+	cursor: pointer;
+}
+#check {
+	display: none;
+}
+
+.banner {
+	background-color: #96B6C5;
+	padding:100px 0;
+}
+
+section {
+	padding:50px 0;
+}
+
+.banner img {
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #ddd;
+	margin-bottom: 30px;
+    border-radius: 50%;
+
+}
+
+.banner h2,
+.banner p,
+.banner span {
+	color: #fff;
+}
+
+.banner h2 {
+	margin-bottom: 10px;
+}
+
+.banner p {
+	font-size: 18px;
+}
+
+.banner-left {
+	padding-left:24px;
+    text-align: center;
+}
+
+section h3 {
+	padding-bottom: 20px;
+	text-align: center;
+	margin:20px;
+	position: relative;
+}
+
+section h3::before {
+	content:'';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width:120px;
+	height:1px;
+	background-color: #ddd;
+	left: calc(50% - 60px);
+}
+
+section h3::after {
+	content:'';
+	display: block;
+	position: absolute;
+	bottom: -1px;
+	width:40px;
+	height:4px;
+	background-color: #96B6C5;
+	left: calc(50% - 20px);
+}
+
+#about p {
+	text-align: justify;
+	text-indent: 30px;
+	line-height: 25px;
+	margin-bottom: 15px;
+    background-color: #EEE0C9;
+}
+
+#contact {
+	background-color: #EEE0C9;
+}
+
+#skill {
+    background-color: #EEE0C9;
+}
+
+.col-4 {
+	width:25%;
+	box-sizing: border-box;
+	padding:5px;
+	float: left;
+	text-align: center;
+    margin-top: 20px;
+	margin-bottom: 15px;
+    position: relative;
+}
+
+.col-4 img {
+	width:100%;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.col-4 a:hover img {
+	transform: scale(1.2);
+}
+
+.col-3 {
+	width:33.33%;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	padding:50px 10px;
+}
+
+.col-3 h4 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+}
+
+.back-button {
+    display: block;
+    width: 100px;
+    margin: 20px auto; /* Membuat tombol berada di tengah secara horizontal */
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+footer{
+    background-color: #FFC6AC;
+    color: black;
+    padding: 24px 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px; /* Jarak antara tautan */
+}
+
+ul li:last-child {
+    margin-right: 0; 
+}
+
+a {
+    text-decoration: none; 
+    color: #141E46;
+}
+
+a:hover {
+    text-decoration: underline;
+}
